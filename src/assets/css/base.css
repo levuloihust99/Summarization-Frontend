@@ -1,0 +1,65 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+.inputQuestion {
+    border-radius: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: inline-block;
+    font-size: 14px;
+    width: 90%;
+}
+
+.questionBar {
+    font-size: 12px;
+}
+
+.element {
+    padding-left: 12px;
+    padding-right: 12px;
+    border-top: 1px solid #acacb1;
+    border-bottom: 1px solid #acacb1;
+}
+
+.element:nth-child(even) {
+    background-color: #d1d0d0;
+}
+
+.element:nth-child(odd) {
+    background-color: #fafafa;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.documentInput {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    width: 95%;
+    padding: 10px
+}
