@@ -1,8 +1,8 @@
 import React from 'react'
-import { Input, Button } from 'semantic-ui-react'
+import { Input, Button, Icon } from 'semantic-ui-react'
 import "./assets/css/base.css"
 
-const backendURL = "http://localhost:7778/report"
+const backendURL = "http://103.252.1.223:7778/report"
 
 const Report = () => {
     const [report, setReport] = React.useState(undefined)
@@ -68,7 +68,8 @@ const Report = () => {
                     onChange={handleUpload}
                 />
 				<div style={{marginTop: "10px", marginBottom: "15px"}}>
-					<Button primary onClick={createReport}>Tạo báo cáo</Button>
+					{/* <Button primary onClick={createReport}>Tạo báo cáo</Button> */}
+                    <Button icon primary><Icon name="edit"/></Button>
 				</div>
             </>
         )
